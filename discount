@@ -1,0 +1,8 @@
+print("Ora qualcosa di complesso!")
+prezzo_intero = float(input("Inserisci il costo del vestito "))
+percentuale_di_sconto = int(input("Inserisci la percentuale di sconto tra 10 20 30 40 50 60 "))
+sconto_percentuale = percentuale_di_sconto / 100
+sconto_applicato = prezzo_intero * sconto_percentuale
+costo_finale = prezzo_intero - sconto_applicato
+print(f"Il costo finale scontato è: {prezzo_intero - sconto_applicato}\n")
+print(f"Hai risparmiato: {prezzo_intero * sconto_percentuale}")
